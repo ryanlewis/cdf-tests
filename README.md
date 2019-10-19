@@ -6,10 +6,10 @@ This is a very simplistic test and is by no means exhaustive.
 
 # Modules tested
 
-- [t-digest][1]
+- [tdigest][1]
 - [sample-distribution][2]
 
-t-digest was picked as a popular package, including being the one to calculate histograms in prom-client.
+tdigest was picked as a popular package, including being the one to calculate histograms in [prom-client][3].
 sample-distribution claimed to do what I needed but a little quicker.
 
 # Usage
@@ -46,7 +46,8 @@ node sample-distribution.js  0.95s user 0.32s system 104% cpu 1.221 total
 
 sample-distribution is approximately 4.3x faster in these rough tests.
 
-[1]: https://github.com/tdunning/t-digest
+[1]: https://github.com/welch/tdigest
 [2]: https://github.com/hville/sample-distribution
+[3]: https://github.com/siimon/prom-client
 
 
