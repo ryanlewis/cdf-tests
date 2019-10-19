@@ -1,6 +1,6 @@
-Some quick tests around two Node modules that are useful for calculating quartiles and other statistics.
+# CDF Node module tests for t-digest and sample-distribution
 
-# Notes
+Some quick tests around two Node modules that are useful for calculating quartiles and other statistics.
 
 This is a very simplistic test and is by no means exhaustive. 
 
@@ -44,7 +44,7 @@ node sample-distribution.js  0.95s user 0.32s system 104% cpu 1.221 total
 ➜  cdf-tests
 ```
 
-sample-distribution is approximately 4.3x in these rough tests.
+sample-distribution is approximately 4.3x faster in these rough tests.
 
 [1]: https://github.com/tdunning/t-digest
 [2]: https://github.com/hville/sample-distribution
