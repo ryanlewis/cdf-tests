@@ -17,7 +17,6 @@ sample-distribution claimed to do what I needed but a little quicker.
 ```
 time node tdigest.js
 time node sample-distribution.js
-
 ```
 
 # Results
